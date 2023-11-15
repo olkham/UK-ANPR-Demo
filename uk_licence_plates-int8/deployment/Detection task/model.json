@@ -1,0 +1,33 @@
+{
+   "id": "6554bd59c26545b0ce93ddb5",
+   "name": "YOLOX OpenVINO INT8",
+   "version": 7,
+   "creation_date": "2023-11-15T12:45:13.683000+00:00",
+   "model_format": "OpenVINO",
+   "precision": [
+      "INT8"
+   ],
+   "has_xai_head": false,
+   "target_device": "CPU",
+   "target_device_type": null,
+   "performance": {
+      "score": 0.8749999999999999
+   },
+   "size": 5896873,
+   "latency": 0,
+   "fps_throughput": 0,
+   "optimization_type": "POT",
+   "optimization_objectives": {},
+   "model_status": "SUCCESS",
+   "configurations": [
+      {
+         "name": "sample_size",
+         "value": 300
+      }
+   ],
+   "previous_revision_id": "6554bd59c26545b0ce93ddb4",
+   "previous_trained_revision_id": "65536ee0403d0387942822e4",
+   "optimization_methods": [
+      "QUANTIZATION"
+   ]
+}

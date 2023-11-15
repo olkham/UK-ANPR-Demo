@@ -1,0 +1,62 @@
+{
+   "id": "64cb8fe0b3e645a8fa2bb0f1",
+   "name": "uk plates",
+   "creation_time": "2023-08-03T11:30:40.441000+00:00",
+   "creator_id": "admin@home.com",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "64cb8fe0b3e645a8fa2bb0f2",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "64cb8fe0b3e645a8fa2bb0f5",
+            "title": "Detection task",
+            "task_type": "detection",
+            "labels": [
+               {
+                  "id": "64cb8fe0b3e645a8fa2bb0f8",
+                  "name": "plate",
+                  "is_anomalous": false,
+                  "color": "#548fadff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "64cb8fe0b3e645a8fa2bb0fc",
+                  "name": "No Object",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No Object",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "64cb8fe0b3e645a8fa2bb0fe"
+         }
+      ],
+      "connections": [
+         {
+            "from": "64cb8fe0b3e645a8fa2bb0f2",
+            "to": "64cb8fe0b3e645a8fa2bb0f5"
+         }
+      ]
+   },
+   "datasets": [
+      {
+         "id": "64cb8fe0b3e645a8fa2bb0f9",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2023-08-03T11:30:40.441000+00:00"
+      }
+   ],
+   "thumbnail": "/api/v1/workspaces/6482398a119a5ff4d98ac6ff/projects/64cb8fe0b3e645a8fa2bb0f1/thumbnail",
+   "storage_info": {},
+   "performance": {
+      "score": 0.8727272727272726
+   }
+}
