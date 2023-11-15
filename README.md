@@ -19,6 +19,7 @@ Note: This is only the detection part, it does not do the OCR part.
 ## Prerequisites
 
 - [Python 3.8](https://www.python.org/downloads/)
+- Check the latest version of the Intel [Geti SDK](https://github.com/openvinotoolkit/geti-sdk) for the full Python compatibility chart
 
 ## Installation
 
